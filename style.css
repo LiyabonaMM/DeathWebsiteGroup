@@ -124,3 +124,27 @@ body {
 .btn:hover {
     background-color: #c00;
 }
+.hero-header {
+    background-image: url("./img/pxfuel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .hero-header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
